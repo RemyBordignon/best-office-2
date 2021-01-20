@@ -27,6 +27,7 @@
 .Vote-button {
   background-color: #9b7373;
   height: 10vh;
+  display: flex;
 }
 
 .App-link {
