@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>HI</p>
+      <p>HI There folks</p>
       <header className="App-header">
         <p>
           Which syd office is the best? rly
