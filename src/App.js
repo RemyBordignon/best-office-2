@@ -23,7 +23,7 @@ function App() {
         </div>
 
         <div className="Vote-button">
-          <p>Three six three? {threeSixThree}</p>
+          <p>Three six three? Votes: {threeSixThree}</p>
           <button onClick={() => setThreeSixThree(threeSixThree + 1)}>Vote</button>
         </div>
       </header>
