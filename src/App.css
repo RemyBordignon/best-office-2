@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #273d79;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Vote-button {
+  background-color: #9b7373;
+  height: 10vh;
+  display: flex;
 }
 
 .App-link {

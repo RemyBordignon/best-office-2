@@ -10,19 +10,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Which office is the best?
+          Which syd office is the best?
         </p>
-        <div style={{display: 'flex'}}>
+        <div className="Vote-button">
           <p>Three four one? {threeFourOne}</p>
-          <button onClick={() => setThreeFourOne(threeFourOne + 1)}>Vote</button>
+          <button onClick={() => setThreeFourOne(threeFourOne + 3)}>Vote</button>
         </div>
 
-        <div style={{display: 'flex'}}>
+        <div className="Vote-button">
           <p>Three four three? {threeFourThree}</p>
-          <button onClick={() => setThreeFourThree(threeFourThree + 1)}>Vote</button>
+          <button onClick={() => setThreeFourThree(threeFourThree + 2)}>Vote</button>
         </div>
 
-        <div style={{display: 'flex'}}>
+        <div className="Vote-button">
           <p>Three six three? {threeSixThree}</p>
           <button onClick={() => setThreeSixThree(threeSixThree + 1)}>Vote</button>
         </div>
