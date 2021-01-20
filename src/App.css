@@ -24,6 +24,11 @@
   color: white;
 }
 
+.Vote-button {
+  background-color: #9b7373;
+  height: 10vh;
+}
+
 .App-link {
   color: #61dafb;
 }
