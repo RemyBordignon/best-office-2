@@ -18,13 +18,17 @@ function App() {
         </div>
 
         <div className="Vote-button">
-          <p>Three four three? {threeFourThree}</p>
+          <p>Three four three? Woohooo {threeFourThree}</p>
           <button onClick={() => setThreeFourThree(threeFourThree + 2)}>Vote</button>
         </div>
 
         <div className="Vote-button">
           <p>Three six three? Votes: {threeSixThree}</p>
           <button onClick={() => setThreeSixThree(threeSixThree + 1)}>Vote</button>
+        </div>
+        <div className="Vote-button">
+          <p>WFH? {100000000}</p>
+          <button onClick={() => setThreeFourOne(threeFourOne + 3)}>Vote</button>
         </div>
       </header>
 
