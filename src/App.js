@@ -12,6 +12,7 @@ function App() {
         <p>
           Which syd office is the best?
         </p>
+        <p>Log you vote below</p>
         <div className="Vote-button">
           <p>Three four one? {threeFourOne}</p>
           <button onClick={() => setThreeFourOne(threeFourOne + 3)}>Vote</button>
