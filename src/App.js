@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [threeFourOne, setThreeFourOne] = useState(0);
+  const [threeFourThree, setThreeFourThree] = useState(0);
+  const [threeSixThree, setThreeSixThree] = useState(0);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Which office is the best?
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div style={{display: 'flex'}}>
+          <p>Three four one? {threeFourOne}</p>
+          <button onClick={() => setThreeFourOne(threeFourOne + 1)}>Vote</button>
+        </div>
+
+        <div style={{display: 'flex'}}>
+          <p>Three four three? {threeFourThree}</p>
+          <button onClick={() => setThreeFourThree(threeFourThree + 1)}>Vote</button>
+        </div>
+
+        <div style={{display: 'flex'}}>
+          <p>Three six three? {threeSixThree}</p>
+          <button onClick={() => setThreeSixThree(threeSixThree + 1)}>Vote</button>
+        </div>
       </header>
+
     </div>
   );
 }
