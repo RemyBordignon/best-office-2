@@ -18,7 +18,7 @@ function App() {
         </div>
 
         <div className="Vote-button">
-          <p>Three four three? {threeFourThree}</p>
+          <p>Three four three? Woohooo {threeFourThree}</p>
           <button onClick={() => setThreeFourThree(threeFourThree + 2)}>Vote</button>
         </div>
 
