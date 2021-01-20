@@ -5,6 +5,8 @@
 
 trigger:
 - main
+- master
+- issue/*
 
 pool:
   vmImage: 'ubuntu-latest'
