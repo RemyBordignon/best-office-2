@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Which office is the best?
+          Which syd office is the best?
         </p>
         <div style={{display: 'flex'}} className="Vote-button">
           <p>Three four one? {threeFourOne}</p>
