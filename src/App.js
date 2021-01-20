@@ -11,7 +11,7 @@ function App() {
       <p>HI</p>
       <header className="App-header">
         <p>
-          Which syd office is the best? rly
+          Which syd office is the best? rly idk
         </p>
         <div className="Vote-button">
           <p>Three four one? {threeFourOne}</p>
