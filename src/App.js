@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <p>HI</p>
       <p>whats up</p>
+      <p>Send events plz</p>
       <header className="App-header">
         <p>
           Which syd office is the best? rly
