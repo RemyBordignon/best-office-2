@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <p>Hi there solaris</p>
+      <p>Hi there solaris</p>
       <p>whats up</p>
       <p>Send events plz</p>
       <header className="App-header">
